@@ -12,6 +12,8 @@ public class PowerOfTwo {
         if (n % 2 == 0) {
             if (n < 2) return false;
             return (isPowerOfTwo(n/2));
-        } else return false;
+        } else {
+            return false;
+        }
     }
 }
